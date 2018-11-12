@@ -1,0 +1,35 @@
+body { height: 5000px; }
+
+li { display: inline-block; padding: 0; }
+
+.header { background-color: #FF4800; }
+.header .info p { display: inline-block; color: white; margin-top: 17px; font-size: 11px; font-style: italic; }
+.header .btn { float: right; padding: 13px 35px; border-radius: 0%; }
+
+.nav-bar { margin-top: 30px; }
+.nav-bar .wrap { display: flex; justify-content: space-around; }
+.nav-bar .wrap li { cursor: pointer; color: black; padding: 10px; font-style: 10px; transition: all .5s ease-in; }
+.nav-bar .wrap li:hover { color: #FF4800; }
+
+.foto { background-image: url("../images/hero.jpg"); width: 100%; height: 680px; background-size: cover; background-position: center; }
+.foto .Donate { color: white; margin-top: 200px; }
+.foto .Donate h1 { font-size: 90px; font-family: 'Spicy Rice', cursive; }
+.foto .Donate h3 { font-size: 50px; font-family: 'Spicy Rice', cursive; }
+.foto .Donate p { font-size: 11px; font-style: italic; }
+.foto .Donate .btn { background-color: #FF4800; border-color: #FF4800; border-radius: 6%; }
+.foto .Donate .btn1 { border-color: #FF4800; background-color: transparent; }
+
+.wrapper { width: 80%; text-align: center; margin-top: 50px; border-radius: 12%; padding: 10px 20px; transition: all .7s linear; color: black; }
+.wrapper:hover { background-color: #FF4800; }
+.wrapper .hand { margin-top: 20px; color: grey; }
+.wrapper h3 { margin-top: 20px; font-family: 'Spicy Rice', cursive; }
+.wrapper p { margin-top: 20px; }
+
+.child { background-image: url("../images/welcome.jpg"); background-size: cover; width: 100%; height: 600px; margin-top: 70px; }
+.child h3 { font-family: 'Spicy Rice', cursive; font-size: 50px; margin-top: 130px; color: white; }
+.child hr { width: 10%; height: 5px; border-radius: 12px; background-color: #FF4800; margin: 0; }
+.child p { margin-top: 70px; color: white; font-size: 16px; font-style: italic; }
+.child .btn2 { background-color: #FF4800; border-color: #FF4800; border-radius: 15%; margin-top: 70px; }
+.child .wrap1 { margin-top: 141px; }
+
+/*# sourceMappingURL=style.css.map */
